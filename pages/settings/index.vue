@@ -103,6 +103,8 @@ export default {
 
       Cookie.remove('user');
       this.clearUser();
+
+      this.$router.push('/');
     }
   },
 }
